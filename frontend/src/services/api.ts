@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:53208", // your AdonisJS backend URL
+  baseURL: "http://localhost:3333", // your AdonisJS backend URL
 
 });
 console.log(API)
